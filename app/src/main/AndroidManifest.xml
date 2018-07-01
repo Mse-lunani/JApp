@@ -29,6 +29,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <provider
+            android:name=".data.dbprovider"
+            android:authorities="com.mike.android.japp"
+            android:exported="false" />
+
     </application>
 
 </manifest>

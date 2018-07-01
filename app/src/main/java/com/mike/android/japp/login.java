@@ -25,7 +25,7 @@ private static final String TAG = "SignInActivity";
 private static final int RC_SIGN_IN = 9001;
 
 private GoogleSignInClient mGoogleSignInClient;
-private TextView mStatusTextView;
+
 
 @Override
 protected void onCreate(Bundle savedInstanceState) {
